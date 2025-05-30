@@ -5,7 +5,21 @@
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+
+ /* <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+	<link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+  */
+
+/* @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css); */
+
+@import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css");
+@import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css");
+@import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css");
+@import url("https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css");
+
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,700");
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,500");
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
@@ -17020,7 +17034,7 @@ footer.footer-3 {
 }
 /* line 1714, ../sass/main.scss */
 footer.footer-3 .top-footer {
-  border-bottom: 1px solid #dedede !important;
+  border-bottom: 1px solid transparent !important;
   position: relative;
 }
 /* line 1718, ../sass/main.scss */
@@ -17097,6 +17111,14 @@ footer .top-footer .social li:hover a.twitter-icon {
 }
 /* line 1777, ../sass/main.scss */
 footer .top-footer .social li:hover a.youtube {
+  color: #bb0000;
+}
+/* line 1777, ../sass/main.scss */
+footer .top-footer .social li:hover a.instagram {
+  color: #bb0000;
+}
+/* line 1777, ../sass/main.scss */
+footer .top-footer .social li:hover a.tiktok {
   color: #bb0000;
 }
 /* line 1780, ../sass/main.scss */
