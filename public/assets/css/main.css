@@ -10148,7 +10148,7 @@ a.text-dark:focus, a.text-dark:hover {
 /* line 159, ../sass/_partials/_main_nav.scss */
 .sf-arrows .sf-with-ul {
   padding-right: 1.5em;
-  *padding-right: 1em;
+  padding-right: 1em;
   /* no CSS arrows for IE7 (lack pseudo-elements) */
 }
 
