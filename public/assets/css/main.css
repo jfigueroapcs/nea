@@ -10071,7 +10071,7 @@ a.text-dark:focus, a.text-dark:hover {
   display: block;
   font-size: 14px;
   font-weight: normal;
-  color: white;
+  color: #232323;
 }
 
 /* line 100, ../sass/_partials/_main_nav.scss */
@@ -10148,7 +10148,7 @@ a.text-dark:focus, a.text-dark:hover {
 /* line 159, ../sass/_partials/_main_nav.scss */
 .sf-arrows .sf-with-ul {
   padding-right: 1.5em;
-  padding-right: 1em;
+  *padding-right: 1em;
   /* no CSS arrows for IE7 (lack pseudo-elements) */
 }
 
@@ -10166,7 +10166,7 @@ a.text-dark:focus, a.text-dark:hover {
   border: 5px solid transparent;
   border-top-color: #dFeEFF;
   /* edit this to suit design (no rgba in IE8) */
-  /* border-top-color: rgba(0, 0, 0, 0.5); */
+  border-top-color: rgba(0, 0, 0, 0.5);
 }
 
 /* line 177, ../sass/_partials/_main_nav.scss */
@@ -10189,7 +10189,7 @@ ul.sub-current .current .sf-with-ul:after {
 .mainmenu {
   width: 100%;
   min-height: 65px;
-  /* background-color: #fff; */
+  background-color: #fff;
   border-top: 1px solid #dedede;
   z-index: 9999;
 }
@@ -11598,7 +11598,7 @@ footer.footer-2 .links-footer ul li a:hover,
 .section-title-team h6 strong,
 .section-title-team h6 a,
 .recent-results .info-results ul li .head .date {
-  color: #efc32e;
+  color: #01d099;
 }
 
 /* Borders ----------------------------------------------------------*/
@@ -11652,7 +11652,7 @@ footer.footer-2 .links-footer ul li a:hover,
 .mainmenu,
 .sf-menu .sub-current,
 .header-2 {
-  border-bottom: 3px solid #a31651;
+  border-bottom: 3px solid #01d099;
 }
 
 /* line 112, ../sass/_partials/_skins.scss */
@@ -11664,14 +11664,14 @@ footer.footer-2 .links-footer ul li a:hover,
 header,
 .overlay-player,
 .crumbs {
-  border-top: 3px solid #a31651;
+  border-top: 3px solid #01d099;
 }
 
 /* line 120, ../sass/_partials/_skins.scss */
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-  border-top-color: #efc32e;
+  border-top-color: #01d099;
   /* IE8 fallback colour */
 }
 
@@ -15418,7 +15418,7 @@ html.swipebox-html.swipebox-touch {
 /*  Header -------------------------------------------*/
 /* line 386, ../sass/main.scss */
 header {
-  background: rgb(0,0,111);
+  background: #006f;
 }
 /* line 388, ../sass/main.scss */
 header .logo img {
@@ -15474,7 +15474,7 @@ header .mobile-nav:hover {
 .mainmenu {
   width: 100%;
   min-height: 65px;
-  background-color: rgb(0,0,111);
+  background-color: #fff;
   border-top: 1px solid #dedede;
   z-index: 9999;
   position: relative;
@@ -15514,7 +15514,7 @@ header .mobile-nav:hover {
 
 /* line 457, ../sass/main.scss */
 .header-2 .sf-arrows .sf-with-ul:after {
-  /* right: 5px; */
+  right: 5px;
   margin-top: -1px;
 }
 
