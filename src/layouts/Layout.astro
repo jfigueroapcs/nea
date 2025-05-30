@@ -1,14 +1,51 @@
+---
+export interface Props {
+    title: string;
+    header: number;
+}
+const { title, header = 1 } = Astro.props;
+
+import Header2 from "../components/headers/Header2.astro";
+import Header3 from "../components/headers/Header3.astro";
+import Header4 from "../components/headers/Header4.astro"
+import Header1 from "../components/headers/Header1.astro";
+let Header = Header1
+
+if(header === 3){
+	Header = Header3
+}else if(header === 4){
+	Header = Header4
+}
+---
+
 <!doctype html>
-<html lang="en">
+<html lang="e">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro Basics</title>
+		<title>{title}</title>
+		<link href="assets/css/main.css" rel="stylesheet" media="screen">
 	</head>
 	<body>
-		<slot />
+
+		<div id="layout">
+			<Header />
+			<slot />
+		</div>
+		 <!-- ======================= JQuery libs =========================== -->
+        <!-- jQuery local-->
+        <script type="text/javascript" src="assets/js/jquery.js"></script>
+        <!-- popper.js-->
+        <script type="text/javascript" src="assets/js/popper.min.js"></script>
+        <!-- bootstrap.min.js-->
+        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+        <!-- required-scripts.js-->
+        <script type="text/javascript" src="assets/js/theme-scripts.js"></script>
+        <!-- theme-main.js-->
+        <script type="text/javascript" src="assets/js/theme-main.js"></script>
+        <!-- ======================= End JQuery libs =========================== -->
 	</body>
 </html>
 

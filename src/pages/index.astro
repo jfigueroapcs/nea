@@ -1,11 +1,24 @@
 ---
-import Welcome from '../components/Welcome.astro';
+// import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
+// import {
+// 	getSecret
+// } from "astro:env/server"
 
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+// console.log("==>", getSecret('SmartPort-Key'))
+
+import SmartPort from '../lib/SmartPort';
+
+const cache = new SmartPort({
+	endpoints: ['event', 'events', 'tourney', 'juegos', 'users?delegation=true']
+})
+
+cache.refresh('events').then(() => {
+	console.log('Cache actualizado');
+})
+
+
 ---
 
-<Layout>
-	<Welcome />
+<Layout title="Nacionales Deportivos" header={1}>
 </Layout>
