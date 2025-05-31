@@ -18444,9 +18444,8 @@ address strong {
 .instagram-btn .btn-instagram {
   position: absolute;
   background: #000;
-  width: 230px;
+  width: 300px;
   left: 50%;
-  margin-left: -115px;
   top: -51px;
   z-index: 99;
   color: #fff;
@@ -18457,6 +18456,7 @@ address strong {
   font-size: 12px;
   letter-spacing: 1px;
   line-height: 14px;
+  transform: translate(-50%, 0%);
 }
 /* line 2840, ../sass/main.scss */
 .instagram-btn .btn-instagram i {

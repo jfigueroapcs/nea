@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/node':
         specifier: ^9.2.2
-        version: 9.2.2(astro@5.8.1(@types/node@22.15.28)(rollup@4.41.1)(typescript@5.8.3))
+        version: 9.2.2(astro@5.8.1(@types/node@22.15.29)(rollup@4.41.1)(typescript@5.8.3))
       astro:
         specifier: ^5.8.1
-        version: 5.8.1(@types/node@22.15.28)(rollup@4.41.1)(typescript@5.8.3)
+        version: 5.8.1(@types/node@22.15.29)(rollup@4.41.1)(typescript@5.8.3)
       dotenv:
         specifier: ^16.5.0
         version: 16.5.0
@@ -23,6 +23,10 @@ importers:
       path:
         specifier: ^0.12.7
         version: 0.12.7
+    devDependencies:
+      '@types/node':
+        specifier: ^22.15.29
+        version: 22.15.29
 
 packages:
 
@@ -486,8 +490,8 @@ packages:
   '@types/nlcst@2.0.3':
     resolution: {integrity: sha512-vSYNSDe6Ix3q+6Z7ri9lyWqgGhJTmzRjZRqyq15N0Z/1/UnVsno9G/N40NBijoYx2seFDIl0+B2mgAb9mezUCA==}
 
-  '@types/node@22.15.28':
-    resolution: {integrity: sha512-I0okKVDmyKR281I0UIFV7EWAWRnR0gkuSKob5wVcByyyhr7Px/slhkQapcYX4u00ekzNWaS1gznKZnuzxwo4pw==}
+  '@types/node@22.15.29':
+    resolution: {integrity: sha512-LNdjOkUDlU1RZb8e1kOIUpN1qQUlzGkEtbVNo53vbrwDg5om6oduhm4SiUaPW5ASTXhAiP0jInWG8Qx9fVlOeQ==}
 
   '@types/unist@3.0.3':
     resolution: {integrity: sha512-ko/gIFJRv177XgZsZcBwnqJN5x/Gien8qNOn0D5bQU/zAzVf9Zt3BlcUiLqhV9y4ARk0GbT3tnUiPNgnTXzc/Q==}
@@ -1760,10 +1764,10 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/node@9.2.2(astro@5.8.1(@types/node@22.15.28)(rollup@4.41.1)(typescript@5.8.3))':
+  '@astrojs/node@9.2.2(astro@5.8.1(@types/node@22.15.29)(rollup@4.41.1)(typescript@5.8.3))':
     dependencies:
       '@astrojs/internal-helpers': 0.6.1
-      astro: 5.8.1(@types/node@22.15.28)(rollup@4.41.1)(typescript@5.8.3)
+      astro: 5.8.1(@types/node@22.15.29)(rollup@4.41.1)(typescript@5.8.3)
       send: 1.2.0
       server-destroy: 1.0.1
     transitivePeerDependencies:
@@ -2078,7 +2082,7 @@ snapshots:
 
   '@types/fontkit@2.0.8':
     dependencies:
-      '@types/node': 22.15.28
+      '@types/node': 22.15.29
 
   '@types/hast@3.0.4':
     dependencies:
@@ -2094,7 +2098,7 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/node@22.15.28':
+  '@types/node@22.15.29':
     dependencies:
       undici-types: 6.21.0
 
@@ -2130,7 +2134,7 @@ snapshots:
 
   array-iterate@2.0.1: {}
 
-  astro@5.8.1(@types/node@22.15.28)(rollup@4.41.1)(typescript@5.8.3):
+  astro@5.8.1(@types/node@22.15.29)(rollup@4.41.1)(typescript@5.8.3):
     dependencies:
       '@astrojs/compiler': 2.12.0
       '@astrojs/internal-helpers': 0.6.1
@@ -2185,8 +2189,8 @@ snapshots:
       unist-util-visit: 5.0.0
       unstorage: 1.16.0
       vfile: 6.0.3
-      vite: 6.3.5(@types/node@22.15.28)
-      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.28))
+      vite: 6.3.5(@types/node@22.15.29)
+      vitefu: 1.0.6(vite@6.3.5(@types/node@22.15.29))
       xxhash-wasm: 1.1.0
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
@@ -3627,7 +3631,7 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite@6.3.5(@types/node@22.15.28):
+  vite@6.3.5(@types/node@22.15.29):
     dependencies:
       esbuild: 0.25.5
       fdir: 6.4.5(picomatch@4.0.2)
@@ -3636,12 +3640,12 @@ snapshots:
       rollup: 4.41.1
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 22.15.28
+      '@types/node': 22.15.29
       fsevents: 2.3.3
 
-  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.28)):
+  vitefu@1.0.6(vite@6.3.5(@types/node@22.15.29)):
     optionalDependencies:
-      vite: 6.3.5(@types/node@22.15.28)
+      vite: 6.3.5(@types/node@22.15.29)
 
   web-namespaces@2.0.1: {}
 

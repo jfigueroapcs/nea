@@ -1,7 +1,7 @@
 ---
 // import Welcome from '../components/Welcome.astro';
-import Hero4 from '../components/hero-header/Hero4.astro';
-import Layout from '../layouts/Layout.astro';
+import Hero4 from '@components/hero-header/Hero4.astro';
+import Layout from "@/layouts/Layout.astro";
 // import {
 // 	getSecret
 // } from "astro:env/server"
@@ -657,17 +657,5 @@ cache.refresh('events').then(() => {
 	<!-- End Newsletter -->
 </section>
 <!-- End Section Area -  Content Central -->
-
-<div class="instagram-btn light">
-	<div class="btn-instagram">
-		<i class="fa fa-instagram"></i>
-		FOLLOW
-		<a href="https://www.instagram.com/fifaworldcup/" target="_blank">&#64;fifaworldcup</a>
-	</div>
-</div>
-
-<div class="content-instagram">
-	<div id="instafeed"></div>
-</div>
 
 </Layout>

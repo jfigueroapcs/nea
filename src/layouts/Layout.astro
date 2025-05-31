@@ -4,6 +4,8 @@ export interface Props {
     header: number;
 }
 const { title, header = 1 } = Astro.props;
+const get = new URL(Astro.request.url);
+
 
 import Header2 from "../components/headers/Header2.astro";
 import Header3 from "../components/headers/Header3.astro";
@@ -22,6 +24,7 @@ if(header === 3){
 <!doctype html>
 <html lang="e">
 	<head>
+        <base href={get.origin}>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -35,6 +38,19 @@ if(header === 3){
 		<div id="layout">
 			<Header />
 				<slot />
+
+				<div class="instagram-btn">
+					<div class="btn-instagram">
+						<i class="fa-brands fa-instagram"></i>
+						Siguenos
+						<a href="https://www.instagram.com/mindeporteven" target="_blank">&#64;mindeporteven</a>
+					</div>
+				</div>
+				
+				<div class="content-instagram">
+					<div id="instafeed"></div>
+				</div>
+
 			<Footer />
 		</div>
 		 <!-- ======================= JQuery libs =========================== -->
