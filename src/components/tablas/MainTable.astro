@@ -1,16 +1,14 @@
 ---
-import { ContentSchemaContainsSlugError } from 'node_modules/astro/dist/core/errors/errors-data';
-import {
-	getSecret
-} from "astro:env/server"
+import { API_URL }  from "@/consts.ts"
+
 
 export interface Props {
     tables: any;
     delegations: any;
 }
-const apiUrl = getSecret('SmartPort-ImgURL')
 const { tables, delegations } = Astro.props;
 const tableKeys = Object.keys(tables)
+const apiUrl =  API_URL
 
 console.log("apiUrl ===>", apiUrl)
 
