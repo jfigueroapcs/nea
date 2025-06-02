@@ -5,19 +5,25 @@ import { API_URL }  from "@/consts.ts"
 export interface Props {
     tables: any;
     delegations: any;
+    type?: string;
 }
-const { tables, delegations } = Astro.props;
+const { tables, delegations, type } = Astro.props;
 const tableKeys = Object.keys(tables)
 const apiUrl =  API_URL
 
-console.log("apiUrl ===>", apiUrl)
+
+
+console.log("apiUrl ===>", type)
 
 
 ---
 {
     // @ts-ignore
     tableKeys.map(key => {
+    // const { head, data } = tables[key]
     const { head, data } = tables[key]
+    // console.log("data  ===>>> ", data)
+    const newData = type === 'small' ? data.slice(0,5) : data
     return(
         <>
             <div class="panel-box" style="margin: 40px 0 10px 0">
@@ -25,7 +31,7 @@ console.log("apiUrl ===>", apiUrl)
                     <h4 style="text-transform: capitalize">{key}</h4>
                 </div>
             </div>
-            <table class="table-striped table-responsive table-hover result-point">
+            <table class={`table-striped table-responsive table-hover result-point ${type}`}>
                 <thead class="point-table-head">
                 <tr>
                     {
@@ -36,11 +42,13 @@ console.log("apiUrl ===>", apiUrl)
 
                 <tbody class="text-center">
                     {
-                        data.map((d:any, didx:number) => {
+                        
+                        newData.map((d:any, didx:number) => {
                             // console.log(d[head[0]])
                             const dataKeys = Object.keys(d)
                             // console.log(dataKeys)
                             const del = delegations.find((delegation:any) => delegation.name === d[dataKeys[1]] )
+                            
                             return(
                                 <tr>
 

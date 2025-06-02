@@ -8,22 +8,20 @@ import Layout from "@/layouts/Layout.astro";
 
 // console.log("==>", getSecret('SmartPort-Key'))
 
-import SmartPort from '../lib/SmartPort';
+import SmartPort from '@/lib/SmartPort';
+import MainTables from "@components/tablas/MainTable.astro"
+
 
 const cache = new SmartPort({
-	endpoints: ['event', 'events', 'tourney', 'juegos', 'users?delegation=true']
+	endpoints: []
 })
-
-// cache.refresh('events').then(() => {
-// 	console.log('Cache actualizado');
-// })
-
 // @ts-ignore
-const eventos = await cache.getData('sport', {ev: "nac", limit: 5, sort: 'fecha:desc' })
+const sports = await cache.getData(`sport`, {ev: "nac", sort: 'name:asc' })
 // @ts-ignore
-const tabla = await cache.getData(`tableMedals?sport=${eventos[1].alias}`, {ev: "nac", limit: 5, sort: 'fecha:desc' })
+const tables = await cache.getData(`tableMedals`, {ev: "nac", sort: 'name:asc' })
+// @ts-ignore
+const delegations = await cache.getData('users?delegation=true', {ev: "nac", sort: 'name:asc' })
 
-// console.log(eventos, eventos.length)
 
 ---
 
@@ -221,152 +219,8 @@ const tabla = await cache.getData(`tableMedals?sport=${eventos[1].alias}`, {ev: 
 							<h4>Points Table</h4>
 						</div>
 
-						<table class="table-striped table-responsive table-hover result-point small">
-							<thead class="point-table-head">
-								<tr>
-									<th class="text-left">No</th>
-									<th class="text-left">TEAM</th>
-									<th class="text-center">P</th>
-									<th class="text-center">W</th>
-									<th class="text-center">D</th>
-									<th class="text-center">PTS</th>
-								</tr>
-							</thead>
-
-							<tbody class="text-center">
-								<tr>
-									<td class="text-left number">1 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/colombia.png" alt="Colombia"><span>Colombia</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>26</td>
-									<td>9</td>
-									<td>3</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">2 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/bra.png" alt="Brazil"><span>Brazil</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>24</td>
-									<td>7</td>
-									<td>7</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">3 <i class="fa fa-caret-up" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/arg.png" alt="Argentina"><span>Argentina</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>22</td>
-									<td>9</td>
-									<td>7</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">4<i class="fa fa-caret-down" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/japan.png" alt="Japan"><span>Japan</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>20</td>
-									<td>10</td>
-									<td>8</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">5  <i class="fa fa-caret-up" aria-hidden="true"></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/sen.png" alt="Senegal"><span>Senegal</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>19</td>
-									<td>7</td>
-									<td>12</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">6<i class="fa fa-caret-down" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/pol.png" alt="Poland"><span>Poland</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>18</td>
-									<td>8</td>
-									<td>12</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">7<i class="fa fa-caret-down" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img  src="img/clubs-logos/rusia.png" alt="Russia"><span>Russia</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>18</td>
-									<td>6</td>
-									<td>14</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">8<i class="fa fa-caret-up" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/irn.png" alt="Iran"><span>Iran</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>12</td>
-									<td>11</td>
-									<td>15</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">9 <i class="fa fa-circle" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/esp.png" alt="Spain"><span>Spain</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>26</td>
-									<td>9</td>
-									<td>3</td>
-								</tr>
-
-								<tr>
-									<td class="text-left number">10<i class="fa fa-circle" aria-hidden="true"></i></td>
-									<td class="text-left">
-										<a href="single-team.html">
-											<img src="img/clubs-logos/fra.png" alt="France">
-											<span>France</span>
-										</a>
-									</td>
-									<td>38</td>
-									<td>24</td>
-									<td>7</td>
-									<td>7</td>
-								</tr>
-								</tbody>
-						</table>
-							<a href="table-point.html" class="btn-iw full no-margin">View Full Table</a>
+						<MainTables tables={tables} delegations={delegations} type="small" />
+							<a href="/medallas" class="btn-iw full no-margin">View Full Table</a>
 					</div>
 					<!-- End Point Table -->
 
