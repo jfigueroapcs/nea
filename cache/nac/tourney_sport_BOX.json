@@ -1,0 +1,1007 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b9d"
+    },
+    "name": "48 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-48-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "48 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b9e"
+    },
+    "name": "48 kg 17-18 A  (F) 2024",
+    "alias": "box-17-18-a-48-kg-female-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "48 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b9f"
+    },
+    "name": "50 kg 17-18 A  (F) 2024",
+    "alias": "box-17-18-a-50-kg-female-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "50 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba0"
+    },
+    "name": "51 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-51-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "51 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba1"
+    },
+    "name": "52 kg 17-18 A  (F) 2024",
+    "alias": "box-17-18-a-52-kg-female-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "52 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba2"
+    },
+    "name": "54 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-54-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "54 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba3"
+    },
+    "name": "54 kg 17-18 A  (F) 2024",
+    "alias": "box-17-18-a-54-kg-female-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "54 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba4"
+    },
+    "name": "57 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-57-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "57 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba5"
+    },
+    "name": "60 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-60-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "60 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba6"
+    },
+    "name": "60 kg 17-18 A  (F) 2024",
+    "alias": "box-17-18-a-60-kg-female-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "60 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba7"
+    },
+    "name": "63,5 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-63,5-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "63,5 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba8"
+    },
+    "name": "67 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-67-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "67 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568ba9"
+    },
+    "name": "71 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-71-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "71 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568baa"
+    },
+    "name": "75 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-75-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "75 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568bab"
+    },
+    "name": "80 kg 17-18 A  (M) 2024",
+    "alias": "box-17-18-a-80-kg-male-2024",
+    "sport": "BOX",
+    "category": "17-18 A",
+    "competition": "80 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 17,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "8",
+        "competitions": [
+          "48 kg",
+          "50 kg",
+          "51 kg",
+          "52 kg",
+          "54 kg",
+          "57 kg",
+          "60 kg",
+          "63,5 kg",
+          "67 kg",
+          "71 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 3
+  }
+]

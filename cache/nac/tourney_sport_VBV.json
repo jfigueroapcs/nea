@@ -1,0 +1,166 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568bcb"
+    },
+    "name": "Equipo M 20 A  (M) 2024",
+    "alias": "vbv-20-a-equipo-m-male-2024",
+    "sport": "VBV",
+    "category": "20 A",
+    "competition": "Equipo M",
+    "gender": "male",
+    "group": "1",
+    "groups": "A,B,C,Dd,D,Eee,Ee,E,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Set 1",
+        "alias": "set1",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      },
+      {
+        "name": "Set 2",
+        "alias": "set2",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      },
+      {
+        "name": "Set 3",
+        "alias": "set3",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "versus",
+        "valdraw": "false",
+        "win": "3",
+        "draw": "undefined",
+        "lose": "1",
+        "competitions": [
+          "Equipo M",
+          "Equipo F"
+        ],
+        "groups": [
+          "A",
+          "B",
+          "C",
+          "Dd",
+          "D",
+          "Eee",
+          "Ee",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "set1",
+          "set2",
+          "set3"
+        ],
+        "operation": "match"
+      }
+    ],
+    "juegos": 33
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568bcc"
+    },
+    "name": "Equipo F 20 A  (F) 2024",
+    "alias": "vbv-20-a-equipo-f-female-2024",
+    "sport": "VBV",
+    "category": "20 A",
+    "competition": "Equipo F",
+    "gender": "female",
+    "group": "1",
+    "groups": "A,B,C,Dd,D,Eee,Ee,E,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Set 1",
+        "alias": "set1",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      },
+      {
+        "name": "Set 2",
+        "alias": "set2",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      },
+      {
+        "name": "Set 3",
+        "alias": "set3",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "versus",
+        "valdraw": "false",
+        "win": "3",
+        "draw": "undefined",
+        "lose": "1",
+        "competitions": [
+          "Equipo M",
+          "Equipo F"
+        ],
+        "groups": [
+          "A",
+          "B",
+          "C",
+          "Dd",
+          "D",
+          "Eee",
+          "Ee",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "set1",
+          "set2",
+          "set3"
+        ],
+        "operation": "match"
+      }
+    ],
+    "juegos": 34
+  }
+]

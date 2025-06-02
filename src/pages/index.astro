@@ -16,13 +16,13 @@ const cache = new SmartPort({
 	endpoints: []
 })
 // @ts-ignore
-const sports = await cache.getData(`sport`, {ev: "nac", sort: 'name:asc' })
+const events = await cache.getData(`events`, {ev: "nac", sort: 'name:asc' })
 // @ts-ignore
 const tables = await cache.getData(`tableMedals`, {ev: "nac", sort: 'name:asc' })
 // @ts-ignore
 const delegations = await cache.getData('users?delegation=true', {ev: "nac", sort: 'name:asc' })
 
-
+console.log("events ===>", events)
 ---
 
 

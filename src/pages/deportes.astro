@@ -1,7 +1,164 @@
 ---
+import { EV, API_URL } from "@/consts";
 import Layout from "@/layouts/Layout.astro";
+import SmartPort from '@/lib/SmartPort'
+import FilterDeportes from '@components/Sidebars/FilterDeportes.astro'
+import SingleBanner from '@components/banners/SingleBanner.astro'
+
+let { asport } = Astro.params
+const cache = new SmartPort({
+	endpoints: []
+})
+const enndp = asport !== undefined ? `?sport=${asport}` : ''
+// @ts-ignore
+const sports = await cache.getData(`sport`, {ev: EV, sort: 'name:asc' })
+// @ts-ignore
+const AllTournaments = await cache.getData(`tourney${enndp}`, {ev: EV, sort: 'date:asc' })
+const tournaments = AllTournaments
+const apiUrl =  API_URL
+
+// console.log("AllTournaments", AllTournaments)
 ---
 
 <Layout title="Nacionales Deportivos" header={1}>
+
+    <SingleBanner pageTitle="Deportes" />
+    <section class="content-info">
+        <div class="container paddings-mini" style="padding-bottom: 70px !important;">
+            <div class="row">
+
+                <FilterDeportes sports={sports} asport={asport} baseUrl="deportes" />
+
+                <div class="col-lg-9">
+                    <!-- Section Area - Content Central -->
+            <section class="content-info">
+
+                <!-- Nav Filters -->
+                <!-- <div class="portfolioFilter">
+                    <div class="container">
+                        <h5><i class="fa fa-filter" aria-hidden="true"></i>Filter By:</h5>
+                        <a href="#" data-filter="*" class="current">Show All</a>
+                        <a href="#" data-filter=".group-a">Group A</a>
+                        <a href="#" data-filter=".group-b">Group B</a>
+                        <a href="#" data-filter=".group-c">Group C</a>
+                        <a href="#" data-filter=".group-d">Group D</a>
+                        <a href="#" data-filter=".group-e">Group E</a>
+                        <a href="#" data-filter=".group-f">Group F</a>
+                        <a href="#" data-filter=".group-g">Group G</a>
+                        <a href="#" data-filter=".group-h">Group H</a>
+                    </div>
+                </div> -->
+                <!-- End Nav Filters -->
+
+                <div class="container padding-top">
+                    <div class="row portfolioContainer">
+
+                        {
+                            sports.map((sport:any) => {
+                                return(
+                                    <>
+                                        <div class="col-md-6 col-lg-4">
+                                            <div class="item-team">
+                                                <div class="head-team">
+                                                    {/* <img src="img/clubs-teams/japan.jpg" alt="location-team"/>
+                                                    <div class="overlay">
+                                                        <a href="single-team.html">+</a>
+                                                    </div> */}
+                                                </div>
+                                                <div class="info-team">
+                                                    <span class="logo-team">
+                                                        <img src={`${apiUrl}img/sport/${sport.pictureAlt}`} alt="logo-team"/>
+                                                    </span>
+                                                    <h4>{sport.name}</h4>
+                                                    <span class="location-team">
+                                                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                                                        Competiciones ({sport.competition.length})
+                                                    </span>
+                                                    <span class="group-team">
+                                                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                                                        Categorias ({sport.categorys?.length})
+                                                    </span>
+                                                </div>
+                                                <a href={`/deportes/${sport.alias}`} class="btn">Ver Detalle <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                                            </div>
+                                        </div>
+                                    </>
+                                )
+                            })
+                        }
+
+
+                        <div class="col-md-6 col-lg-4 col-xl-3">
+                            <div class="item-team">
+                                <div class="head-team">
+                                    <img src="img/clubs-teams/japan.jpg" alt="location-team">
+                                    <div class="overlay"><a href="single-team.html">+</a></div>
+                                </div>
+                                <div class="info-team">
+                                    <span class="logo-team">
+                                        <img src="img/clubs-logos/japan.png" alt="logo-team">
+                                    </span>
+                                    <h4>Japan</h4>
+                                    <span class="location-team">
+                                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                                        Stadium
+                                    </span>
+                                    <span class="group-team">
+                                        <i class="fa fa-trophy" aria-hidden="true"></i>
+                                        Group H
+                                    </span>
+                                </div>
+                                <a href="single-team.html" class="btn">Team Profile <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="section-newsletter">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="text-center">
+                                    <h2>Enter your e-mail and <span class="text-resalt">subscribe</span> to our newsletter.</h2>
+                                    <p>Duis non lorem porta,  eros sit amet, tempor sem. Donec nunc arcu, semper a tempus et, consequat.</p>
+                                </div>
+                                <form id="newsletterForm" action="php/mailchip/newsletter-subscribe.php">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                                <input class="form-control" placeholder="Your Name" name="name"  type="text" required="required">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-addon">
+                                                    <i class="fa fa-envelope"></i>
+                                                </span>
+                                                <input class="form-control" placeholder="Your  Email" name="email"  type="email" required="required">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-primary" type="submit" name="subscribe" >SIGN UP</button>
+                                                 </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                                <div id="result-newsletter"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Newsletter -->
+            </section>
+            <!-- End Section Area -  Content Central -->
+                </div>
+
+            </div>
+        </div>
+    </section>
     
 </Layout>

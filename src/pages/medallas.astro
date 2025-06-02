@@ -1,7 +1,10 @@
 ---
+import { EV, API_URL } from "@/consts";
 import Layout from "@/layouts/Layout.astro"
 import MainTables from "@components/tablas/MainTable.astro"
-import SmartPort from '../lib/SmartPort'
+import SmartPort from '@/lib/SmartPort'
+import FilterDeportes from '@components/Sidebars/FilterDeportes.astro'
+import SingleBanner from '@components/banners/SingleBanner.astro'
 
 let { asport } = Astro.params
 
@@ -11,11 +14,11 @@ const cache = new SmartPort({
 	endpoints: []
 })
 // @ts-ignore
-const sports = await cache.getData(`sport`, {ev: "nac", sort: 'name:asc' })
+const sports = await cache.getData(`sport`, {ev: EV, sort: 'name:asc' })
 // @ts-ignore
-const tables = await cache.getData(asport ? `tableMedals?sport=${asport}` : `tableMedals`, {ev: "nac", sort: 'name:asc' })
+const tables = await cache.getData(asport ? `tableMedals?sport=${asport}` : `tableMedals`, {ev: EV, sort: 'name:asc' })
 // @ts-ignore
-const delegations = await cache.getData('users?delegation=true', {ev: "nac", sort: 'name:asc' })
+const delegations = await cache.getData('users?delegation=true', {ev: EV, sort: 'name:asc' })
 
 // console.log(sports)
 
@@ -29,26 +32,8 @@ title={`Nacionales Deportivos | ${pageTitle}`}
 
 header={1}
 >
-  <!-- Section Title -->
-  <div class="section-title" style="background:url(img/slide/1.jpg)">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8">
-          <h1>Medallero</h1>
-        </div>
 
-        <div class="col-md-4">
-          <div class="breadcrumbs">
-            <ul>
-              <li><a href="index.html">Home</a></li>
-              <li>{pageTitle}</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- End Section Title -->
+<SingleBanner pageTitle={pageTitle}/>
 
   <!-- Section Area - Content Central -->
   <section class="content-info">
@@ -56,47 +41,8 @@ header={1}
       <div class="row">
 
         <!-- Sidebars -->
-        <aside class="col-lg-3">
+          <FilterDeportes sports={sports} asport={asport} baseUrl="medallas" />
 
-            <div>
-                <h4>Buscar deporte</h4>
-                <form class="search" action="#" method="Post">
-                    <div class="input-group">
-                        <input id="search-input" class="form-control" placeholder="Buscar..." name="email"  type="email" required="required">
-                        <span class="input-group-btn">
-                            <button class="btn btn-primary" type="submit" name="subscribe" >Go!</button>
-                        </span>
-                    </div>
-                </form>
-            </div>
-
-            <!-- Widget Categories-->
-            <div class="panel-box">
-                <div class="titles no-margin">
-                    <h4>Categorías</h4>
-                </div>
-                <div class="info-panel">
-                    <ul class="list list-filter" id="sports-list">
-                        <!-- <li class="active"><i class="fa fa-check"></i><a href="#">Design</a></li> -->
-                        <!-- <li><i class="fa fa-check"></i><a href="#">Photos</a></li> -->
-                        {
-                          sports.map((sport:any) => {
-                            return (
-                              <li class={sport.alias === asport ? 'active' : ''}  aria-label={sport.alias} data-alias={sport.alias} data-name={sport.name}>
-                                <i class="fa fa-check"></i>
-                                <a href={`/medallas/${sport.alias}`}>{sport.name}</a>
-                              </li>
-                            )
-                          })
-                        }
-
-                    </ul>
-                </div>
-            </div>
-            <!-- End Widget Categories-->
-
-
-        </aside>
         <!-- End Sidebars -->
 
 

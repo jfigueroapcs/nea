@@ -1,0 +1,667 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2a"
+    },
+    "name": "INDIVIDUAL 18 I  (M) 2024",
+    "alias": "ten-18-i-individual-male-2024",
+    "sport": "TEN",
+    "category": "18 I",
+    "competition": "INDIVIDUAL",
+    "gender": "male",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 5
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2b"
+    },
+    "name": "INDIVIDUAL 18 I  (F) 2024",
+    "alias": "ten-18-i-individual-female-2024",
+    "sport": "TEN",
+    "category": "18 I",
+    "competition": "INDIVIDUAL",
+    "gender": "female",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 5
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2c"
+    },
+    "name": "DOBLES 18 E  (M) 2024",
+    "alias": "ten-18-e-dobles-male-2024",
+    "sport": "TEN",
+    "category": "18 E",
+    "competition": "DOBLES",
+    "gender": "male",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "18 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 4
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2d"
+    },
+    "name": "DOBLES 18 E  (F) 2024",
+    "alias": "ten-18-e-dobles-female-2024",
+    "sport": "TEN",
+    "category": "18 E",
+    "competition": "DOBLES",
+    "gender": "female",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "18 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 4
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2e"
+    },
+    "name": "DOBLES 18 E  (X) 2024",
+    "alias": "ten-18-e-dobles-mixto-2024",
+    "sport": "TEN",
+    "category": "18 E",
+    "competition": "DOBLES",
+    "gender": "mixto",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "18 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 4
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d2f"
+    },
+    "name": "EQUIPO 18 E  (M) 2024",
+    "alias": "ten-18-e-equipo-male-2024",
+    "sport": "TEN",
+    "category": "18 E",
+    "competition": "EQUIPO",
+    "gender": "male",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "18 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d30"
+    },
+    "name": "EQUIPO 18 E  (F) 2024",
+    "alias": "ten-18-e-equipo-female-2024",
+    "sport": "TEN",
+    "category": "18 E",
+    "competition": "EQUIPO",
+    "gender": "female",
+    "group": "1",
+    "groups": "Ddddddd,Dddddd,Dd,D,F",
+    "booster": "18 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 18,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marcas",
+        "alias": "marcas",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "key",
+        "keySize": "32",
+        "competitions": [
+          "INDIVIDUAL"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "key",
+        "keySize": "16",
+        "competitions": [
+          "DOBLES"
+        ],
+        "groups": [
+          "Ddddddd",
+          "Dddddd",
+          "Dd",
+          "D",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "match"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "0"
+        ],
+        "competitions": [
+          "COPA DE ESTADO"
+        ],
+        "groups": [
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marcas"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  }
+]

@@ -1,0 +1,1922 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d46"
+    },
+    "name": "48 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-48-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "48 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d47"
+    },
+    "name": "48 kg SANDA 15-17 A  (F) 2024",
+    "alias": "wsu-sanda-15-17-a-48-kg-female-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "48 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d48"
+    },
+    "name": "52 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-52-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "52 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d49"
+    },
+    "name": "52 kg SANDA 15-17 A  (F) 2024",
+    "alias": "wsu-sanda-15-17-a-52-kg-female-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "52 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4a"
+    },
+    "name": "56 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-56-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "56 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4b"
+    },
+    "name": "56 kg SANDA 15-17 A  (F) 2024",
+    "alias": "wsu-sanda-15-17-a-56-kg-female-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "56 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4c"
+    },
+    "name": "60 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-60-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "60 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4d"
+    },
+    "name": "60 kg SANDA 15-17 A  (F) 2024",
+    "alias": "wsu-sanda-15-17-a-60-kg-female-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "60 kg",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4e"
+    },
+    "name": "65 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-65-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "65 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d4f"
+    },
+    "name": "70 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-70-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "70 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d50"
+    },
+    "name": "75 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-75-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "75 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d51"
+    },
+    "name": "80 kg SANDA 15-17 A  (M) 2024",
+    "alias": "wsu-sanda-15-17-a-80-kg-male-2024",
+    "sport": "WSU",
+    "category": "SANDA 15-17 A",
+    "competition": "80 kg",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d52"
+    },
+    "name": "NORTE TAOLU TRADICIONAL 12-17 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-12-17-a-norte-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-17 A",
+    "competition": "NORTE",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "SANDA 15-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d53"
+    },
+    "name": "NORTE TAOLU TRADICIONAL 12-17 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-12-17-a-norte-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-17 A",
+    "competition": "NORTE",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "SANDA 15-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d54"
+    },
+    "name": "SUR TAOLU TRADICIONAL 12-17 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-12-17-a-sur-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-17 A",
+    "competition": "SUR",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "SANDA 15-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d55"
+    },
+    "name": "SUR TAOLU TRADICIONAL 12-17 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-12-17-a-sur-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-17 A",
+    "competition": "SUR",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "SANDA 15-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d56"
+    },
+    "name": "CHANGQUAN TAOLU TRADICIONAL 12-14 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-12-14-a-changquan-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-14 A",
+    "competition": "CHANGQUAN",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 14,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d57"
+    },
+    "name": "CHANGQUAN TAOLU TRADICIONAL 12-14 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-12-14-a-changquan-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-14 A",
+    "competition": "CHANGQUAN",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 14,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d58"
+    },
+    "name": "CHANGQUAN TAOLU TRADICIONAL 15-17 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-15-17-a-changquan-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 15-17 A",
+    "competition": "CHANGQUAN",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-14 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d59"
+    },
+    "name": "CHANGQUAN TAOLU TRADICIONAL 15-17 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-15-17-a-changquan-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 15-17 A",
+    "competition": "CHANGQUAN",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-14 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d5a"
+    },
+    "name": "NANQUAN TAOLU TRADICIONAL 12-14 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-12-14-a-nanquan-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-14 A",
+    "competition": "NANQUAN",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 14,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d5b"
+    },
+    "name": "NANQUAN TAOLU TRADICIONAL 12-14 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-12-14-a-nanquan-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 12-14 A",
+    "competition": "NANQUAN",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-17 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 12,
+    "maxAge": 14,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d5c"
+    },
+    "name": "NANQUAN TAOLU TRADICIONAL 15-17 A  (M) 2024",
+    "alias": "wsu-taolu-tradicional-15-17-a-nanquan-male-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 15-17 A",
+    "competition": "NANQUAN",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-14 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568d5d"
+    },
+    "name": "NANQUAN TAOLU TRADICIONAL 15-17 A  (F) 2024",
+    "alias": "wsu-taolu-tradicional-15-17-a-nanquan-female-2024",
+    "sport": "WSU",
+    "category": "TAOLU TRADICIONAL 15-17 A",
+    "competition": "NANQUAN",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "TAOLU TRADICIONAL 12-14 A",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 15,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Puntos",
+        "alias": "point",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "48 kg",
+          "52 kg",
+          "56 kg",
+          "60 kg",
+          "65 kg",
+          "70 kg",
+          "75 kg",
+          "80 kg"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      },
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "NORTE",
+          "SUR",
+          "CHANGQUAN",
+          "NANQUAN"
+        ],
+        "groups": [
+          "Z",
+          "F"
+        ],
+        "forTotal": [
+          "point"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  }
+]

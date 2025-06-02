@@ -1,0 +1,53 @@
+---
+
+export interface Props {
+    sports: any;
+    asport?: string;
+    baseUrl: string,
+}
+const { sports, asport, baseUrl } = Astro.props;
+---
+
+ <!-- Sidebars -->
+<aside class="col-lg-3">
+
+    <div>
+        <h4>Buscar deporte</h4>
+        <form class="search" action="#" method="Post">
+            <div class="input-group">
+                <input id="search-input" class="form-control" placeholder="Buscar..." name="email"  type="email" required="required">
+                <span class="input-group-btn">
+                    <button class="btn btn-primary" type="submit" name="subscribe" >Go!</button>
+                </span>
+            </div>
+        </form>
+    </div>
+
+    <!-- Widget Categories-->
+    <div class="panel-box">
+        <div class="titles no-margin">
+            <h4>Categorías</h4>
+        </div>
+        <div class="info-panel">
+            <ul class="list list-filter" id="sports-list">
+                <!-- <li class="active"><i class="fa fa-check"></i><a href="#">Design</a></li> -->
+                <!-- <li><i class="fa fa-check"></i><a href="#">Photos</a></li> -->
+                {
+                sports.map((sport:any) => {
+                    return (
+                    <li class={sport.alias === asport ? 'active' : ''}  aria-label={sport.alias} data-alias={sport.alias} data-name={sport.name}>
+                        <i class="fa fa-check"></i>
+                        <a href={`/${baseUrl}/${sport.alias}`}>{sport.name}</a>
+                    </li>
+                    )
+                })
+                }
+
+            </ul>
+        </div>
+    </div>
+    <!-- End Widget Categories-->
+
+
+</aside>
+<!-- End Sidebars -->

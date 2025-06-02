@@ -1,0 +1,110 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568c50"
+    },
+    "name": "STREET 17 A  (M) 2024",
+    "alias": "skb-17-a-street-male-2024",
+    "sport": "SKB",
+    "category": "17 A",
+    "competition": "STREET",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "STREET"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568c51"
+    },
+    "name": "STREET 17 A  (F) 2024",
+    "alias": "skb-17-a-street-female-2024",
+    "sport": "SKB",
+    "category": "17 A",
+    "competition": "STREET",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 17,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "STREET"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  }
+]

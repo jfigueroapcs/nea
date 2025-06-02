@@ -1,0 +1,26 @@
+---
+export interface Props {
+    pageTitle: string,
+}
+const { pageTitle } = Astro.props;
+---
+  <!-- Section Title -->
+  <div class="section-title" style="background:url(img/slide/1.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h1>{pageTitle}</h1>
+        </div>
+
+        <div class="col-md-4">
+          <div class="breadcrumbs">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li>{pageTitle}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Section Title -->

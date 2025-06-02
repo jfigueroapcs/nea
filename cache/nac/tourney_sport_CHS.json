@@ -1,0 +1,994 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b4c"
+    },
+    "name": "Rápido 20 A  (M) 2024",
+    "alias": "chs-20-a-rápido-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Rápido",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b4d"
+    },
+    "name": "Rápido 20 A  (F) 2024",
+    "alias": "chs-20-a-rápido-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Rápido",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b4e"
+    },
+    "name": "Blitz 20 A  (M) 2024",
+    "alias": "chs-20-a-blitz-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Blitz",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b4f"
+    },
+    "name": "Blitz 20 A  (F) 2024",
+    "alias": "chs-20-a-blitz-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Blitz",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b50"
+    },
+    "name": "Clásico Tablero 1 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-1-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 1",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b51"
+    },
+    "name": "Clásico Tablero 1 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-1-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 1",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b52"
+    },
+    "name": "Clásico Tablero 2 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-2-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 2",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b53"
+    },
+    "name": "Clásico Tablero 2 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-2-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 2",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b54"
+    },
+    "name": "Clásico Tablero 3 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-3-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 3",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b55"
+    },
+    "name": "Clásico Tablero 3 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-3-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 3",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b56"
+    },
+    "name": "Clásico Tablero 4 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-4-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 4",
+    "gender": "male",
+    "group": "1",
+    "groups": "E",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b57"
+    },
+    "name": "Clásico Tablero 4 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-4-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 4",
+    "gender": "female",
+    "group": "1",
+    "groups": "E",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b58"
+    },
+    "name": "Clásico Tablero 5 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-5-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 5",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b59"
+    },
+    "name": "Clásico Tablero 5 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-5-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 5",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b5a"
+    },
+    "name": "Clásico Tablero 6 20 A  (M) 2024",
+    "alias": "chs-20-a-clásico-tablero-6-male-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 6",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b5b"
+    },
+    "name": "Clásico Tablero 6 20 A  (F) 2024",
+    "alias": "chs-20-a-clásico-tablero-6-female-2024",
+    "sport": "CHS",
+    "category": "20 A",
+    "competition": "Clásico Tablero 6",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 150,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "text",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "0",
+        "competitions": [
+          "Rápido",
+          "Blitz",
+          "Clásico Tablero 1",
+          "Clásico Tablero 2",
+          "Clásico Tablero 3",
+          "Clásico Tablero 4",
+          "Clásico Tablero 5",
+          "Clásico Tablero 6",
+          "Standard Equipo"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "asc"
+      }
+    ],
+    "juegos": 0
+  }
+]

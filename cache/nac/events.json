@@ -1,0 +1,923 @@
+[
+  {
+    "_id": {
+      "$oid": "66795560a0a3793e17019a02"
+    },
+    "logo": "79cd3d737b50670509917f3957dbaee2.png",
+    "name": "Nacionales",
+    "slug": "nac",
+    "description": "",
+    "colorPrimario": "#000000",
+    "colorSecundario": "",
+    "fields": [
+      {
+        "name": "Nombres",
+        "alias": "name",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Apellidos",
+        "alias": "lastname",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (DNI)",
+        "alias": "dni",
+        "icon": "fa-profile",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Género",
+        "alias": "gender",
+        "icon": "fa-algo",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "Hombre",
+            "value": "male"
+          },
+          {
+            "name": "Mujer",
+            "value": "female"
+          }
+        ]
+      },
+      {
+        "name": "Fecha de nacimiento",
+        "alias": "birth_date",
+        "icon": "undefined",
+        "type": "date",
+        "required": "false"
+      },
+      {
+        "name": "Foto",
+        "alias": "picture",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "T. Sangre",
+        "alias": "blood",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "A+",
+            "value": "A+"
+          },
+          {
+            "name": "A-",
+            "value": "A-"
+          },
+          {
+            "name": "B+",
+            "value": "B+"
+          },
+          {
+            "name": "B-",
+            "value": "B-"
+          },
+          {
+            "name": "AB+",
+            "value": "AB+"
+          },
+          {
+            "name": "AB-",
+            "value": "AB-"
+          },
+          {
+            "name": "O+",
+            "value": "O+"
+          },
+          {
+            "name": "O-",
+            "value": "O-"
+          }
+        ]
+      },
+      {
+        "name": "Email",
+        "alias": "email",
+        "icon": "undefined",
+        "type": "email",
+        "required": "false"
+      },
+      {
+        "name": "Teléfono Móvil",
+        "alias": "phone",
+        "icon": "undefined",
+        "type": "tel",
+        "required": "false"
+      },
+      {
+        "name": "Altura",
+        "alias": "height",
+        "icon": "undefined",
+        "type": "number",
+        "required": "false"
+      },
+      {
+        "name": "Peso",
+        "alias": "weight",
+        "icon": "undefined",
+        "type": "number",
+        "required": "false"
+      }
+    ],
+    "maxPosition": "4",
+    "positions": [
+      "34",
+      "21",
+      "13",
+      "8"
+    ],
+    "register": false,
+    "rol_defoult": null,
+    "create_at": {
+      "$date": {
+        "$numberLong": "1719227744000"
+      }
+    },
+    "active": false,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1730320004000"
+      }
+    },
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "league": "Nacionales"
+  },
+  {
+    "_id": {
+      "$oid": "67507c08d7deaf84208af645"
+    },
+    "logo": "0a6c59bb207320f747375dd882dad391.png",
+    "name": "Asofutsal",
+    "slug": "asofutsal",
+    "description": "",
+    "colorPrimario": "#000000",
+    "colorSecundario": "",
+    "fields": [
+      {
+        "name": "Nombres",
+        "alias": "name",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Apellidos",
+        "alias": "lastname",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Foto",
+        "alias": "picture",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "Tiene Cédula de Identidad?",
+        "alias": "hasDNI",
+        "icon": "undefined",
+        "type": "checkbox",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (DNI)",
+        "alias": "dni",
+        "icon": "fa-profile",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (Foto)",
+        "alias": "dniFile",
+        "icon": "undefined",
+        "type": "file",
+        "required": "true"
+      },
+      {
+        "name": "Sexo",
+        "alias": "gender",
+        "icon": "fa-algo",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "Hombre",
+            "value": "male"
+          },
+          {
+            "name": "Mujer",
+            "value": "female"
+          }
+        ]
+      },
+      {
+        "name": "Fecha de nacimiento",
+        "alias": "birth_date",
+        "icon": "undefined",
+        "type": "date",
+        "required": "false"
+      },
+      {
+        "name": "Lugar de Nacimiento",
+        "alias": "birth_adress",
+        "icon": "undefined",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Email",
+        "alias": "email",
+        "icon": "undefined",
+        "type": "email",
+        "required": "false"
+      },
+      {
+        "name": "Teléfono Móvil",
+        "alias": "phone2",
+        "icon": "undefined",
+        "type": "tel",
+        "required": "false"
+      },
+      {
+        "name": "Partida de Nacimiento",
+        "alias": "birth_certificate",
+        "icon": "undefined",
+        "type": "file",
+        "required": "true"
+      }
+    ],
+    "maxPosition": "4",
+    "positions": [
+      "34",
+      "21",
+      "13",
+      "8"
+    ],
+    "register": false,
+    "rol_defoult": null,
+    "create_at": {
+      "$date": {
+        "$numberLong": "1719227744000"
+      }
+    },
+    "active": false,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1724302735000"
+      }
+    },
+    "records": {
+      "FDS": {
+        "win": "3",
+        "lose": "1",
+        "forTotal": [
+          "gol"
+        ]
+      },
+      "ATL": {
+        "onlyPos": "on",
+        "forTotal": [
+          "time"
+        ]
+      }
+    },
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "league": "Asofutsal",
+    "analytics": "G-W0NN8HMXPV"
+  },
+  {
+    "_id": {
+      "$oid": "67d985ab191e0f02402823aa"
+    },
+    "logo": "d09cf01049ed0b947f1771456213a4db.svg",
+    "name": "CVG",
+    "slug": "cvg",
+    "description": "",
+    "colorPrimario": "#000000",
+    "colorSecundario": "",
+    "fields": [
+      {
+        "name": "Nombres",
+        "alias": "name",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Apellidos",
+        "alias": "lastname",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (DNI)",
+        "alias": "dni",
+        "icon": "fa-profile",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Picture",
+        "alias": "picture",
+        "icon": "undefined",
+        "type": "dni",
+        "required": "false"
+      },
+      {
+        "name": "Género",
+        "alias": "gender",
+        "icon": "fa-algo",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "Hombre",
+            "value": "male"
+          },
+          {
+            "name": "Mujer",
+            "value": "female"
+          }
+        ]
+      },
+      {
+        "name": "Fecha de nacimiento",
+        "alias": "birth_date",
+        "icon": "undefined",
+        "type": "date",
+        "required": "false"
+      },
+      {
+        "name": "T. Sangre",
+        "alias": "blood",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "A+",
+            "value": "A+"
+          },
+          {
+            "name": "A-",
+            "value": "A-"
+          },
+          {
+            "name": "B+",
+            "value": "B+"
+          },
+          {
+            "name": "B-",
+            "value": "B-"
+          },
+          {
+            "name": "AB+",
+            "value": "AB+"
+          },
+          {
+            "name": "AB-",
+            "value": "AB-"
+          },
+          {
+            "name": "O+",
+            "value": "O+"
+          },
+          {
+            "name": "O-",
+            "value": "O-"
+          }
+        ]
+      },
+      {
+        "name": "Email",
+        "alias": "email",
+        "icon": "undefined",
+        "type": "email",
+        "required": "false"
+      },
+      {
+        "name": "Operadora",
+        "alias": "operator",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "414",
+            "value": "414"
+          },
+          {
+            "name": "424",
+            "value": "424"
+          },
+          {
+            "name": "412",
+            "value": "412"
+          },
+          {
+            "name": "416",
+            "value": "416"
+          },
+          {
+            "name": "426",
+            "value": "426"
+          }
+        ]
+      },
+      {
+        "name": "Teléfono Móvil",
+        "alias": "phone",
+        "icon": "undefined",
+        "type": "tel",
+        "required": "false"
+      },
+      {
+        "name": "Talla Superior",
+        "alias": "talla",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "XS",
+            "value": "XS"
+          },
+          {
+            "name": "S",
+            "value": "S"
+          },
+          {
+            "name": "M",
+            "value": "M"
+          },
+          {
+            "name": "L",
+            "value": "L"
+          },
+          {
+            "name": "XL",
+            "value": "XL"
+          },
+          {
+            "name": "2XL",
+            "value": "2XL"
+          },
+          {
+            "name": "3XL",
+            "value": "3XL"
+          },
+          {
+            "name": "4XL",
+            "value": "4XL"
+          }
+        ]
+      },
+      {
+        "name": "Talla Inferior",
+        "alias": "short",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "XS",
+            "value": "XS"
+          },
+          {
+            "name": "S",
+            "value": "S"
+          },
+          {
+            "name": "M",
+            "value": "M"
+          },
+          {
+            "name": "L",
+            "value": "L"
+          },
+          {
+            "name": "XL",
+            "value": "XL"
+          },
+          {
+            "name": "2XL",
+            "value": "2XL"
+          },
+          {
+            "name": "3XL",
+            "value": "3XL"
+          },
+          {
+            "name": "4XL",
+            "value": "4XL"
+          }
+        ]
+      },
+      {
+        "name": "Talla Zapatos",
+        "alias": "shoes",
+        "icon": "undefined",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "32",
+            "value": "32"
+          },
+          {
+            "name": "33",
+            "value": "33"
+          },
+          {
+            "name": "34",
+            "value": "34"
+          },
+          {
+            "name": "35",
+            "value": "35"
+          },
+          {
+            "name": "36",
+            "value": "36"
+          },
+          {
+            "name": "37",
+            "value": "37"
+          },
+          {
+            "name": "38",
+            "value": "38"
+          },
+          {
+            "name": "39",
+            "value": "39"
+          },
+          {
+            "name": "40",
+            "value": "40"
+          },
+          {
+            "name": "41",
+            "value": "41"
+          },
+          {
+            "name": "42",
+            "value": "42"
+          },
+          {
+            "name": "43",
+            "value": "43"
+          },
+          {
+            "name": "44",
+            "value": "44"
+          },
+          {
+            "name": "45",
+            "value": "45"
+          },
+          {
+            "name": "46",
+            "value": "46"
+          },
+          {
+            "name": "47",
+            "value": "47"
+          },
+          {
+            "name": "48",
+            "value": "48"
+          },
+          {
+            "name": "49",
+            "value": "49"
+          },
+          {
+            "name": "50",
+            "value": "50"
+          }
+        ]
+      }
+    ],
+    "maxPosition": "8",
+    "positions": [
+      "10",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1"
+    ],
+    "register": false,
+    "rol_defoult": null,
+    "create_at": {
+      "$date": {
+        "$numberLong": "1719227744000"
+      }
+    },
+    "active": false,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1731860458000"
+      }
+    },
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "league": "Cvg"
+  },
+  {
+    "_id": {
+      "$oid": "67f17953df257d026622e3a7"
+    },
+    "name": "Infantil A",
+    "slug": "infa",
+    "description": "",
+    "colorPrimario": "#000000",
+    "colorSecundario": "",
+    "fields": [
+      {
+        "name": "Nombres",
+        "alias": "name",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Apellidos",
+        "alias": "lastname",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Foto",
+        "alias": "picture",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "Tiene Cédula de Identidad?",
+        "alias": "hasDNI",
+        "icon": "undefined",
+        "type": "checkbox",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (DNI)",
+        "alias": "dni",
+        "icon": "fa-profile",
+        "type": "number",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (Foto)",
+        "alias": "dniFile",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "Sexo",
+        "alias": "gender",
+        "icon": "fa-algo",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "Hombre",
+            "value": "male"
+          },
+          {
+            "name": "Mujer",
+            "value": "female"
+          }
+        ]
+      },
+      {
+        "name": "Fecha de nacimiento",
+        "alias": "birth_date",
+        "icon": "undefined",
+        "type": "date",
+        "required": "false"
+      },
+      {
+        "name": "Lugar de Nacimiento",
+        "alias": "birth_adress",
+        "icon": "undefined",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Email",
+        "alias": "email",
+        "icon": "undefined",
+        "type": "email",
+        "required": "false"
+      },
+      {
+        "name": "Teléfono Móvil",
+        "alias": "phone2",
+        "icon": "undefined",
+        "type": "tel",
+        "required": "false"
+      },
+      {
+        "name": "Partida de Nacimiento",
+        "alias": "birth_certificate",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      }
+    ],
+    "maxPosition": "4",
+    "positions": [
+      "34",
+      "21",
+      "13",
+      "8"
+    ],
+    "register": false,
+    "rol_defoult": null,
+    "create_at": {
+      "$date": {
+        "$numberLong": "1738322144000"
+      }
+    },
+    "active": true,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1743083334000"
+      }
+    },
+    "records": {
+      "FDS": {
+        "win": "3",
+        "lose": "1",
+        "forTotal": [
+          "gol"
+        ]
+      },
+      "ATL": {
+        "onlyPos": "on",
+        "forTotal": [
+          "time"
+        ]
+      }
+    },
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "logo": null,
+    "league": "Nacional"
+  },
+  {
+    "_id": {
+      "$oid": "680d39ea801488577b93e706"
+    },
+    "logo": "4f49551d387c491b5fa6da87c1fcd4a6.png",
+    "name": "PDVSA",
+    "slug": "pdvsa",
+    "description": "",
+    "colorPrimario": "#000000",
+    "colorSecundario": "",
+    "fields": [
+      {
+        "name": "Nombres",
+        "alias": "name",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Apellidos",
+        "alias": "lastname",
+        "icon": "fa-person",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Foto",
+        "alias": "picture",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (DNI)",
+        "alias": "dni",
+        "icon": "fa-profile",
+        "type": "text",
+        "required": "false"
+      },
+      {
+        "name": "Cedula (Foto)",
+        "alias": "dniFile",
+        "icon": "undefined",
+        "type": "file",
+        "required": "false"
+      },
+      {
+        "name": "Sexo",
+        "alias": "gender",
+        "icon": "fa-algo",
+        "type": "select",
+        "required": "false",
+        "options": [
+          {
+            "name": "Hombre",
+            "value": "male"
+          },
+          {
+            "name": "Mujer",
+            "value": "female"
+          }
+        ]
+      },
+      {
+        "name": "Fecha de nacimiento",
+        "alias": "birth_date",
+        "icon": "undefined",
+        "type": "date",
+        "required": "false"
+      },
+      {
+        "name": "Email",
+        "alias": "email",
+        "icon": "undefined",
+        "type": "email",
+        "required": "false"
+      },
+      {
+        "name": "Teléfono Móvil",
+        "alias": "phone2",
+        "icon": "undefined",
+        "type": "tel",
+        "required": "false"
+      }
+    ],
+    "maxPosition": "4",
+    "positions": [
+      "34",
+      "21",
+      "13",
+      "8"
+    ],
+    "register": false,
+    "rol_defoult": null,
+    "create_at": {
+      "$date": {
+        "$numberLong": "1719227744000"
+      }
+    },
+    "active": true,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1743098050000"
+      }
+    },
+    "records": {
+      "FDS": {
+        "win": "3",
+        "lose": "1",
+        "forTotal": [
+          "gol"
+        ]
+      },
+      "ATL": {
+        "onlyPos": "on",
+        "forTotal": [
+          "time"
+        ]
+      }
+    },
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "league": "PDVSA",
+    "analytics": null
+  }
+]

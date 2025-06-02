@@ -1,0 +1,242 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b97"
+    },
+    "name": "INDIVIDUAL 20 I  (M) 2024",
+    "alias": "bwl-20-i-individual-male-2024",
+    "sport": "BWL",
+    "category": "20 I",
+    "competition": "INDIVIDUAL",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "3",
+          "2",
+          "1"
+        ],
+        "competitions": [
+          "INDIVIDUAL",
+          "PAREJAS"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b98"
+    },
+    "name": "INDIVIDUAL 20 I  (F) 2024",
+    "alias": "bwl-20-i-individual-female-2024",
+    "sport": "BWL",
+    "category": "20 I",
+    "competition": "INDIVIDUAL",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "persons",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "3",
+          "2",
+          "1"
+        ],
+        "competitions": [
+          "INDIVIDUAL",
+          "PAREJAS"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b99"
+    },
+    "name": "PAREJAS 20 E  (M) 2024",
+    "alias": "bwl-20-e-parejas-male-2024",
+    "sport": "BWL",
+    "category": "20 E",
+    "competition": "PAREJAS",
+    "gender": "male",
+    "group": "1",
+    "groups": "F",
+    "booster": "20 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "3",
+          "2",
+          "1"
+        ],
+        "competitions": [
+          "INDIVIDUAL",
+          "PAREJAS"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b9a"
+    },
+    "name": "PAREJAS 20 E  (F) 2024",
+    "alias": "bwl-20-e-parejas-female-2024",
+    "sport": "BWL",
+    "category": "20 E",
+    "competition": "PAREJAS",
+    "gender": "female",
+    "group": "1",
+    "groups": "F",
+    "booster": "20 I",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "position",
+        "maxPosition": "1",
+        "positions": [
+          "3",
+          "2",
+          "1"
+        ],
+        "competitions": [
+          "INDIVIDUAL",
+          "PAREJAS"
+        ],
+        "groups": [
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "desc"
+      }
+    ],
+    "juegos": 1
+  }
+]

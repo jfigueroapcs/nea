@@ -1,0 +1,124 @@
+[
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b5e"
+    },
+    "name": "Equipo M 20 A  (M) 2024",
+    "alias": "bol-20-a-equipo-m-male-2024",
+    "sport": "BOL",
+    "category": "20 A",
+    "competition": "Equipo M",
+    "gender": "male",
+    "group": "1",
+    "groups": "Z,E,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "versus",
+        "valdraw": "undefined",
+        "win": "3",
+        "draw": "undefined",
+        "lose": "1",
+        "competitions": [
+          "Equipo M",
+          "Equipo F"
+        ],
+        "groups": [
+          "Z",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 30
+  },
+  {
+    "_id": {
+      "$oid": "67322c5a32b4f80904568b5f"
+    },
+    "name": "Equipo F 20 A  (F) 2024",
+    "alias": "bol-20-a-equipo-f-female-2024",
+    "sport": "BOL",
+    "category": "20 A",
+    "competition": "Equipo F",
+    "gender": "female",
+    "group": "1",
+    "groups": "Z,E,F",
+    "booster": "",
+    "min_athletes": 1,
+    "max_athletes": 40,
+    "max_reinforcements": 3,
+    "registration_start": "2024-11-11",
+    "registration_end": "2024-11-26",
+    "create_at": {
+      "$date": {
+        "$numberLong": "1731341402000"
+      }
+    },
+    "active": true,
+    "minAge": 0,
+    "maxAge": 20,
+    "catType": "delegation",
+    "fieldsResult": [
+      {
+        "name": "Marca",
+        "alias": "marca",
+        "icon": "undefined",
+        "type": "undefined",
+        "required": "undefined"
+      }
+    ],
+    "records": [
+      {
+        "recordType": "versus",
+        "valdraw": "undefined",
+        "win": "3",
+        "draw": "undefined",
+        "lose": "1",
+        "competitions": [
+          "Equipo M",
+          "Equipo F"
+        ],
+        "groups": [
+          "Z",
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "marca"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "juegos": 32
+  }
+]
