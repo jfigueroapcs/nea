@@ -26,6 +26,17 @@ export default defineConfig({
   adapter: node({
     mode: "middleware",
   }),
+
+  image: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.smartportgms.com',
+      },
+  ],
+
+  },
+
   vite: {
     resolve: {
       alias: {
