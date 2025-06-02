@@ -34,7 +34,7 @@ export default class SmartPort {
 
     async fetchFromAPI(endpoint, params = {}) {
         try {
-            console.log(">>>>>>>>>>>>>>>>>", {try:""})
+            // console.log(">>>>>>>>>>>>>>>>>", {try:""})
             if (!params.ev) params.ev = this.defaultEv;
             // const fetch = (await import('node-fetch')).default;
             const url = new URL(`${this.apiUrl}/${endpoint}`);
@@ -90,7 +90,7 @@ export default class SmartPort {
         await this.updateCache(endpoint, params);
     }
 
-    getData(endpoint, { ev = "undefined", limit, skip = 0, sort, filter, search } = {}) {
+    getData1(endpoint, { ev = "undefined", limit, skip = 0, sort, filter, search } = {}) {
         if (!this.cache[ev] || !this.cache[ev][endpoint]) {
             this.loadFromStorage(endpoint, ev);
         }
@@ -216,6 +216,151 @@ export default class SmartPort {
             }
         }
         return result;
+    }
+    async getData(endpoint, { ev = "undefined", limit, skip = 0, sort, filter, search } = {}) {
+        console.log("------>", this.defaultEv)
+        if (!this.cache[ev] || !this.cache[ev][endpoint]) {
+            // this.loadFromStorage(endpoint, ev);
+            this.loadFromStorage(endpoint, ev);
+            // 🔁 Si aún así no existe, forzar actualización desde API
+            if (!this.cache[ev]?.[endpoint]) {
+                try {
+                    // await this.initCache(ev);
+                    await this.refresh(endpoint, {
+                        ev,
+                        // 'smartport-key': process.env['SmartPort-Key']
+                    });
+
+                    // Volver a intentar cargar desde disco
+                    this.loadFromStorage(endpoint, ev);
+                } catch (err) {
+                    console.error(`⚠ Error forzando refresh de ${endpoint}:, err.message`);
+                }
+            }
+        }
+
+        const cached = this.cache[ev]?.[endpoint];
+        if (!cached || !cached.data) return [];
+
+        // let result = Array.isArray(cached.data)
+        //     ? [...cached.data]
+        //     : Object.values(cached.data);
+
+        let result = cached.data; // puede ser array o objeto
+
+        if (Array.isArray(result)) {
+            if (filter) {
+                result = result.filter(item =>
+                    Object.entries(filter).every(([key, condition]) => {
+                        // if(key == 'smartport-key') return;
+                        const fieldVal = item[key];
+                        if (typeof condition === 'object' && condition !== null && !Array.isArray(condition)) {
+                            return Object.entries(condition).every(([op, val]) => {
+                                let compareVal = fieldVal;
+                                if (fieldVal?.$date?.$numberLong) {
+                                    compareVal = parseInt(fieldVal.$date.$numberLong);
+                                }
+                                if (fieldVal?.$oid) {
+                                    compareVal = fieldVal.$oid;
+                                }
+                                if ((op === '$gt' || op === '$lt') && typeof compareVal === 'number' && typeof val === 'string') {
+                                    if (val.includes('/')) {
+                                        const [day, month, year] = val.split('/');
+                                        val = new Date(`${year}-${month}-${day}`).getTime();
+                                    } else {
+                                        val = new Date(val).getTime();
+                                    }
+                                }
+                                switch (op) {
+                                    case '$in':
+                                        return Array.isArray(val) && val.includes(compareVal);
+                                    case '$gt':
+                                        return compareVal > val;
+                                    case '$lt':
+                                        return compareVal < val;
+                                    case '$regex':
+                                        return new RegExp(val, 'i').test(compareVal);
+                                }
+                            });
+                        }
+
+                        if (typeof condition === 'string') {
+                            if (typeof fieldVal === 'string') return fieldVal.startsWith(condition);
+                            if (Array.isArray(fieldVal)) return fieldVal.some(v => v.startsWith(condition));
+                            if (typeof fieldVal === 'object') {
+                                if ('$oid' in fieldVal) return fieldVal.$oid === condition;
+                                if (fieldVal?.$date?.$numberLong) {
+                                    const itemDate = new Date(parseInt(fieldVal.$date.$numberLong));
+                                    let inputDate;
+                                    if (condition.includes('/')) {
+                                        const [day, month, year] = condition.split('/');
+                                        inputDate = new Date(`${year}-${month}-${day}`);
+                                    } else {
+                                        inputDate = new Date(condition);
+                                    }
+                                    return (
+                                        itemDate.getUTCFullYear() === inputDate.getUTCFullYear() &&
+                                        itemDate.getUTCMonth() === inputDate.getUTCMonth() &&
+                                        itemDate.getUTCDate() === inputDate.getUTCDate()
+                                    );
+                                }
+                            }
+                        }
+
+                        return fieldVal === condition;
+                    })
+                );
+            }
+
+            if (sort) {
+                const [key, dir] = sort.split(':');
+                const order = dir?.toLowerCase();
+                if (order === 'random') {
+                    result.sort(() => Math.random() - 0.5);
+                } else {
+                    const sortOrder = order === 'desc' ? 'desc' : 'asc';
+                    result.sort((a, b) => {
+                        let aVal = a[key];
+                        let bVal = b[key];
+                        if (aVal?.$date?.$numberLong) aVal = parseInt(aVal.$date.$numberLong);
+                        if (bVal?.$date?.$numberLong) bVal = parseInt(bVal.$date.$numberLong);
+                        if (typeof aVal === 'string' && typeof bVal === 'string') {
+                            return sortOrder === 'desc' ? bVal.localeCompare(aVal) : aVal.localeCompare(bVal);
+                        }
+                        return sortOrder === 'desc' ? (bVal > aVal ? 1 : -1) : (aVal > bVal ? 1 : -1);
+                    });
+                }
+            }
+
+            if (search) {
+                const terms = search.toLowerCase().split(/\s+/);
+                result = result.filter(item => {
+                    const searchable = Object.values(item).flatMap(val => {
+                        if (typeof val === 'string') return val.toLowerCase();
+                        if (typeof val === 'number') return val.toString();
+                        if (val?.$oid) return val.$oid;
+                        if (val?.$date?.$numberLong) {
+                            const d = new Date(parseInt(val.$date.$numberLong));
+                            return [d.toISOString().slice(0, 10), `${d.getUTCDate().toString().padStart(2, '0')}/${(d.getUTCMonth() + 1).toString().padStart(2, '0')}/${d.getUTCFullYear()}`];
+                        }
+                        try {
+                            return JSON.stringify(val).toLowerCase();
+                        } catch {
+                            return '';
+                        }
+                    });
+                    return terms.every(term => searchable.some(field => field.includes(term)));
+                });
+            }
+
+            if (skip || limit) {
+                const start = skip || 0;
+                const end = limit ? start + limit : undefined;
+                result = result.slice(start, end);
+            }
+        }
+        return result;
+
     }
 
     parseQueryToFilter(query) {

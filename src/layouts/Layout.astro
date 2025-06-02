@@ -6,6 +6,7 @@ export interface Props {
 const { title, header = 1 } = Astro.props;
 const get = new URL(Astro.request.url);
 
+import { ClientRouter } from 'astro:transitions'
 
 import Header2 from "../components/headers/Header2.astro";
 import Header3 from "../components/headers/Header3.astro";
@@ -30,8 +31,14 @@ if(header === 3){
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
 		<title>{title}</title>
+
+		<!-- Habilitar View Transitions para SPA -->
+		<ClientRouter />
+
 		<!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
 		<link href="assets/css/main.css" rel="stylesheet" media="screen">
+		<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+
 	</head>
 	<body>
 
@@ -53,18 +60,170 @@ if(header === 3){
 
 			<Footer />
 		</div>
-		 <!-- ======================= JQuery libs =========================== -->
-        <!-- jQuery local-->
-        <script type="text/javascript" src="assets/js/jquery.js"></script>
-        <!-- popper.js-->
-        <script type="text/javascript" src="assets/js/popper.min.js"></script>
-        <!-- bootstrap.min.js-->
-        <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
-        <!-- required-scripts.js-->
-        <script type="text/javascript" src="assets/js/theme-scripts.js"></script>
-        <!-- theme-main.js-->
-        <script type="text/javascript" src="assets/js/theme-main.js"></script>
+
+
+		
+        <!-- ======================= JQuery libs =========================== -->
+        <script is:inline type="text/javascript" src="/assets/js/jquery.js"></script>
+        <script is:inline type="text/javascript" src="/assets/js/popper.min.js"></script>
+        <script is:inline type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+        <!-- <script is:inline data-astro-transition-persist="script" type="text/javascript" src="/assets/js/theme-scripts.js"></script> -->
+        <!-- <script type="text/javascript" src="/assets/js/theme-main.js"></script> -->
         <!-- ======================= End JQuery libs =========================== -->
+        <script is:inline type="text/javascript" src="/assets/js/filter-sports.js"></script>
+		 <!-- <script src="/assets/js/filter-sports.js" defer></script> -->
+		<!-- <script type="module">
+			import { initThemeScripts } from '../assets/js/theme-main.js';
+			console.log('initThemeFeatures')
+			initThemeScripts()
+
+			// window.addEventListener('astro:after-swap', initThemeFeatures);
+		</script> -->
+
+		<!-- <script is:inline>
+			window.addEventListener('astro:after-swap', () => {
+				console.log('Transition completa, inicializando scripts...');
+				initThemeScripts();
+			});
+
+			window.addEventListener('astro:page-load', () => {
+				console.log('Primera carga, inicializando scripts...');
+				initThemeScripts();
+			});
+		</script> -->
+		 
+		 <script is:inline>
+			const dynamicScripts = [
+				'theme-scripts',
+				'hover-itent',
+				'superfish-menu',
+				'sticky-plugin',
+				'accordion-script',
+				'uitotop-jquery-plugin',
+				'jquery.gridrotator',
+				'carousel-slick',
+
+				'theme-main',
+			];
+
+			function loadDynamicScripts() {
+				dynamicScripts.forEach((name) => {
+					const id = `${name}-script`;
+
+					// Elimínalo si ya existe
+					const existing = document.getElementById(id);
+					if (existing) {
+						existing.remove();
+					}
+
+					// Cárgalo de nuevo
+					const script = document.createElement('script');
+					script.src = `/assets/js/${name}.js`;
+					script.id = id;
+					script.async = true;
+					document.body.appendChild(script);
+
+					console.log(`🔁 Recargado: ${name}.js`);
+				});
+			}
+			loadDynamicScripts()
+			// document.addEventListener('DOMContentLoaded', loadDynamicScripts)
+
+			// // Recargar después de cada transición de página
+			document.addEventListener('astro:after-swap', loadDynamicScripts)
+
+			// // // También recargar cuando la página está completamente lista
+			// window.addEventListener('astro:page-load', loadDynamicScripts);
+
+			// Ejecuta cuando se termina el swap
+			// window.addEventListener('astro:after-swap', () => {
+			// 	loadDynamicScripts();
+
+			// 	// Si necesitas reinicializar jQuery plugins:
+			// 	if (typeof $ !== 'undefined') {
+			// 		console.log("🔄 Reinicializando jQuery plugins...");
+			// 		// Por ejemplo:
+			// 		// $('.tooltip').tooltip();
+			// 	}
+			// });
+		</script>
+
+		 <script is:inline>
+			window.addEventListener('astro:page-load', () => {
+				console.log('astro:page-load',$)
+			})
+			window.addEventListener('astro:after-swap', () => {
+				console.log('astro:after-swap',$)
+			})
+			window.addEventListener('DOMContentLoaded', () => {
+				console.log('DOMContentLoaded',$)
+			})
+			window.addEventListener('astro:before-preparation', () => {
+				console.log('astro:before-preparation',$)
+			})
+			window.addEventListener('astro:after-preparation', () => {
+				console.log('astro:before-preparation',$)
+			})
+			window.addEventListener('astro:before-swap', () => {
+				console.log('astro:before-swap',$)
+			})
+
+			window.addEventListener('astro:page-load', (event) => {
+				console.log('astro:page-load event fired!', event);
+			});
+		 </script>
+		<!-- <script data-astro-transition-persist="script">
+			function loadThemeScript(){
+
+				const array = [
+				'jquery',
+				'popper.min',
+				'bootstrap.min',
+				'theme-scripts',
+				'theme-main',
+			]
+
+			// const oldScript = document.getElementById('theme-main-script');
+			// if (oldScript) oldScript.remove();
+
+				array.map(sc => {
+
+					const oldJquery = document.getElementById(`${sc}-script`);
+					if (oldJquery) oldJquery.remove()
+
+					if(!oldJquery){
+
+						const script = document.createElement('script');
+						// script.src = '/assets/js/jquery.js';
+						script.src = `/assets/js/${sc}.js`
+						script.id = `${sc}-script`;
+						script.async = true;
+						document.body.appendChild(script)
+						console.log(`cargado ===> ${sc}-script`)
+					}
+	
+				})
+
+				// if ($(".mainmenu").data('sticky')) {
+				// 	$(".mainmenu").sticky('destroy');
+				// }
+				// //=========== Sticky nav ===========//
+    			// $(".mainmenu").sticky({topSpacing:0});
+			}
+			// loadThemeScript()
+			document.addEventListener('DOMContentLoaded', loadThemeScript)
+
+			// // Recargar después de cada transición de página
+			document.addEventListener('astro:after-swap', loadThemeScript)
+
+			// // También recargar cuando la página está completamente lista
+			window.addEventListener('astro:page-load', loadThemeScript);
+
+			
+
+		</script> -->
+
+		
 	</body>
 </html>
 

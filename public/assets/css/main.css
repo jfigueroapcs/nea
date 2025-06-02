@@ -19163,3 +19163,43 @@ table.career tr td img {
   width: 100%;
   height: 38px;
 }
+
+.list-filter li {
+  /* background-color: #efc32e; */
+  margin-bottom: 5px;
+  /* border: 1px solid #efc32e; */
+  /* border: 1px solid #00006f; */
+  padding-left: 8px;
+}
+
+.list-filter li.active,
+.list-filter li:hover
+{
+  /* background-color: #efc32e; */
+  /* background: linear-gradient(to left, #efc32e, #d9a50a); */
+  background: linear-gradient(to right, #00006f, #73bcfc);
+}
+.list-filter li{
+  background: linear-gradient(to left, #00006f, #73bcfc);
+
+}
+.list-filter li.active a,
+.list-filter li:hover a
+{
+    color: white;
+}
+.list-filter li a{
+  /* color:#00006f; */
+  color: white;
+  /* background-color: red; */
+  display: inline-block;
+  width: calc(100% - 25px);
+}
+.list-filter li i {
+    color: transparent;
+}
+.list-filter li.active i,
+.list-filter li:hover i
+{
+    color: white;
+}

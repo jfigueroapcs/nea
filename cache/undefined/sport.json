@@ -1,0 +1,139 @@
+[
+  {
+    "_id": {
+      "$oid": "679e47991a270a714d36a3b2"
+    },
+    "name": "Fútbol de Salón",
+    "alias": "FDS",
+    "code": "FDS",
+    "description": "",
+    "gender": [
+      "male",
+      "female"
+    ],
+    "categorys": [
+      {
+        "name": "Infantil A",
+        "minAge": "0",
+        "maxAge": "16",
+        "recordType": "delegation"
+      }
+    ],
+    "competition": [
+      {
+        "name": "Unica",
+        "group": "true",
+        "gender": [
+          "male",
+          "female"
+        ],
+        "categorys": [
+          "Infantil A"
+        ],
+        "groups": [
+          "Z",
+          "D",
+          "E",
+          "F"
+        ],
+        "recordEnable": "undefined"
+      }
+    ],
+    "fields": "",
+    "fieldsResult": [
+      {
+        "name": "1er TIempo",
+        "alias": "1er",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      },
+      {
+        "name": "2do Tiempo",
+        "alias": "2do",
+        "icon": "undefined",
+        "type": "number",
+        "required": "undefined"
+      }
+    ],
+    "picture": null,
+    "pictureAlt": null,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1738426265000"
+      }
+    },
+    "active": true,
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1743879296000"
+      }
+    },
+    "records": [
+      {
+        "recordType": "versus",
+        "valdraw": "true",
+        "win": "3",
+        "draw": "2",
+        "lose": "1",
+        "competitions": [
+          "Unica"
+        ],
+        "groups": [
+          "Z"
+        ],
+        "forTotal": [
+          "1er",
+          "2do"
+        ],
+        "operation": "sum"
+      },
+      {
+        "recordType": "versus",
+        "valdraw": "false",
+        "win": "3",
+        "draw": "undefined",
+        "lose": "1",
+        "competitions": [
+          "Unica"
+        ],
+        "groups": [
+          "D",
+          "E",
+          "F"
+        ],
+        "forTotal": [
+          "1er",
+          "2do"
+        ],
+        "operation": "sum"
+      }
+    ],
+    "typejudges": [
+      {
+        "name": "Árbitro Principal",
+        "code": "AP"
+      },
+      {
+        "name": "Árbitro Secundario",
+        "code": "AS"
+      },
+      {
+        "name": "Árbitro Terciarío",
+        "code": "AT"
+      },
+      {
+        "name": "Anotador",
+        "code": "An"
+      },
+      {
+        "name": "Cronometrista",
+        "code": "Cr"
+      }
+    ],
+    "juegos": 19
+  }
+]

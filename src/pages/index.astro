@@ -14,14 +14,24 @@ const cache = new SmartPort({
 	endpoints: ['event', 'events', 'tourney', 'juegos', 'users?delegation=true']
 })
 
-cache.refresh('events').then(() => {
-	console.log('Cache actualizado');
-})
+// cache.refresh('events').then(() => {
+// 	console.log('Cache actualizado');
+// })
 
+// @ts-ignore
+const eventos = await cache.getData('sport', {ev: "nac", limit: 5, sort: 'fecha:desc' })
+// @ts-ignore
+const tabla = await cache.getData(`tableMedals?sport=${eventos[1].alias}`, {ev: "nac", limit: 5, sort: 'fecha:desc' })
+
+// console.log(eventos, eventos.length)
 
 ---
 
-<Layout title="Nacionales Deportivos" header={1}>
+
+<Layout
+	title="Nacionales Deportivos"
+	header={1}
+	>
 	<Hero4 />
 
 <!-- Section Area - Content Central -->
@@ -367,7 +377,7 @@ cache.refresh('events').then(() => {
 						</div>
 						<!-- Locations Video -->
 						<div class="row">
-							<iframe src="https://www.youtube.com/embed/AfOlAUd7u4o" class="video"></iframe>
+							<!-- <iframe src="https://www.youtube.com/embed/AfOlAUd7u4o" class="video"></iframe> -->
 							<div class="info-panel">
 								<h4>Rio de Janeiro</h4>
 								<p>Lorem ipsum dolor sit amet, sit amet, consectetur adipisicing elit, elit, incididunt ut labore et dolore magna aliqua sit amet, consectetur adipisicing elit,</p>
@@ -585,7 +595,7 @@ cache.refresh('events').then(() => {
 				<!-- End Top player -->
 
 				<div class="offset-lg-1 col-lg-7">
-					<iframe class="big-video" src="https://www.youtube.com/embed/hW3hnUoUS0k?rel=0&amp;start=7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<!-- <iframe class="big-video" src="https://www.youtube.com/embed/hW3hnUoUS0k?rel=0&amp;start=7" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
 				</div>
 			</div>
 		</div>

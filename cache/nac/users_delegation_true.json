@@ -1,0 +1,865 @@
+[
+  {
+    "_id": {
+      "$oid": "670d501c6e4526561d33ac26"
+    },
+    "picture": "279f3fff076ed48faf832ed0a75c733b.png",
+    "alias": "TRU",
+    "name": "Trujillo",
+    "email": "trujillo@shortae.com",
+    "username": "trujillo",
+    "color": "#795548",
+    "color2": "#5D4037",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930151000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501c6e4526561d33ac27"
+    },
+    "picture": "3edfcfa1a0261a62cca9a7cf6bf744e6.png",
+    "alias": "YAR",
+    "name": "Yaracuy",
+    "email": "yaracuy@shortae.com",
+    "username": "yaracuy",
+    "color": "#607D8B",
+    "color2": "#455A64",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930198000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501c72ad53346d167553"
+    },
+    "picture": "f02b7388c15c8766fd94a2068db30f06.png",
+    "alias": "SUC",
+    "name": "Sucre",
+    "email": "sucre@shortae.com",
+    "username": "sucre",
+    "color": "#009688",
+    "color2": "#00695C",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930102000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501c72ad53346d167554"
+    },
+    "picture": "7cd2a2e401d6af29abfbcfcb08936697.png",
+    "alias": "TAC",
+    "name": "Táchira",
+    "email": "tachira@shortae.com",
+    "username": "tachira",
+    "color": "#673AB7",
+    "color2": "#512DA8",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930166000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501c86dc70667b1779b6"
+    },
+    "picture": "9a82e0d5a4aefba8c238854bc46aa3f4.png",
+    "alias": "ZUL",
+    "name": "Zulia",
+    "email": "zulia@shortae.com",
+    "username": "zulia",
+    "color": "#03A9F4",
+    "color2": "#0288D1",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930215000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501ced2c2e5bbc229415"
+    },
+    "picture": "81ec6af0e1835dca61068dcd8d55ffb0.png",
+    "alias": "POR",
+    "name": "Portuguesa",
+    "email": "portuguesa@shortae.com",
+    "username": "portuguesa",
+    "color": "#CDDC39",
+    "color2": "#AFB42B",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925724000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930072000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501b72ad53346d167552"
+    },
+    "picture": "1abd559a4058a44e6e95a1be612efd0b.png",
+    "alias": "MER",
+    "name": "Mérida",
+    "email": "merida@shortae.com",
+    "username": "merida",
+    "color": "#FF9800",
+    "color2": "#FB8C00",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925723000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930008000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501b7c48a57d68319075"
+    },
+    "picture": "e5a34e01d8c1918e2790ba49c2c0ad1b.png",
+    "alias": "NE",
+    "name": "Nueva Esparta",
+    "email": "nuevaesparta@shortae.com",
+    "username": "nuevaesparta",
+    "color": "#4CAF50",
+    "color2": "#388E3C",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925723000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728930041000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501b86dc70667b1779b4"
+    },
+    "picture": "374d552853ce431e5c225e17a69505c0.png",
+    "alias": "MIR",
+    "name": "Miranda",
+    "email": "miranda@shortae.com",
+    "username": "miranda",
+    "color": "#8BC34A",
+    "color2": "#689F38",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925723000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1731445352000"
+      }
+    },
+    "description": "<p><strong>Capital</strong>: Los Teques Miranda,</p>\r\n<p>Uno de los estados m&aacute;s poblados de Venezuela, tiene una econom&iacute;a diversa y una gran influencia cultural. Con playas en Barlovento y monta&ntilde;as en la regi&oacute;n de los Altos Mirandinos, el estado es variado en paisajes y actividades. Los Teques, su capital, es una ciudad en crecimiento cerca de Caracas.</p>"
+  },
+  {
+    "_id": {
+      "$oid": "670d501b86dc70667b1779b5"
+    },
+    "picture": "503d296879e8e3bd8be6b62edff048ca.png",
+    "alias": "MON",
+    "name": "Monagas",
+    "email": "monagas@shortae.com",
+    "username": "monagas",
+    "color": "#FF5722",
+    "color2": "#BF360C",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925723000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929970000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501a6e4526561d33ac24"
+    },
+    "picture": "88e283d09abf17c0684694318cdce27a.png",
+    "alias": "ESB",
+    "name": "Esequibo",
+    "email": "esequibo@shortae.com",
+    "username": "esequibo",
+    "color": "#FFEB3B",
+    "color2": "#FBC02D",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728943072000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501a6e4526561d33ac25"
+    },
+    "picture": "a49259fc9a5e77b8b0b39902a94d4f8f.png",
+    "alias": "FAL",
+    "name": "Falcón",
+    "email": "falcon@shortae.com",
+    "username": "falcon",
+    "color": "#F44336",
+    "color2": "#D32F2F",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929716000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501a7c48a57d68319074"
+    },
+    "picture": "76811ac786883fc087e2affd6b014d89.png",
+    "alias": "DAM",
+    "name": "Delta Amacuro",
+    "email": "deltaamacuro@shortae.com",
+    "username": "delta-amacuro",
+    "color": "#673AB7",
+    "color2": "#512DA8",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929676000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501ae54b541df64c1cf3"
+    },
+    "picture": "4c2d630aa8e793a81027f2c5c8c69c06.png",
+    "alias": "GUA",
+    "name": "Guárico",
+    "email": "guarico@shortae.com",
+    "username": "guarico",
+    "color": "#3F51B5",
+    "color2": "#303F9F",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929802000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501ae54b541df64c1cf4"
+    },
+    "picture": "1dcedf2a5559dcc93439d2f323320778.png",
+    "alias": "LAG",
+    "name": "La Guaira",
+    "email": "laguaira@shortae.com",
+    "username": "la-guaira",
+    "color": "#00BCD4",
+    "color2": "#00838F",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929875000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501aed2c2e5bbc229414"
+    },
+    "picture": "9a73780f6724905e4837be7888c61569.png",
+    "alias": "COJ",
+    "name": "Cojedes",
+    "email": "cojedes@shortae.com",
+    "username": "cojedes",
+    "color": "#009688",
+    "color2": "#00796B",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928852000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501b86dc70667b1779b3"
+    },
+    "picture": "c0d75d11f62d4b6ee219c261a35d9a5f.png",
+    "alias": "LAR",
+    "name": "Lara",
+    "email": "lara@shortae.com",
+    "username": "lara",
+    "color": "#FF4081",
+    "color2": "#F50057",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925722000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728929905000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d50197c48a57d68319073"
+    },
+    "picture": "0f000ab23b512c344ee4539db526c8a9.png",
+    "alias": "CCS",
+    "name": "Caracas",
+    "email": "caracas@shortae.com",
+    "username": "caracas",
+    "color": "#FF5722",
+    "color2": "#E64A19",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925721000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928704000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d5019ed2c2e5bbc229412"
+    },
+    "picture": "3323c332369e4b431ab7f3774baca22b.png",
+    "alias": "BOL",
+    "name": "Bolívar",
+    "email": "bolivar@shortae.com",
+    "username": "bolivar",
+    "color": "#03A9F4",
+    "color2": "#0288D1",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925721000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928594000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d5019ed2c2e5bbc229413"
+    },
+    "picture": "ad05c871818c6364191e09c82454cdb5.png",
+    "alias": "CAR",
+    "name": "Carabobo",
+    "email": "carabobo@shortae.com",
+    "username": "carabobo",
+    "color": "#9C27B0",
+    "color2": "#7B1FA2",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925721000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928653000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d50186e4526561d33ac22"
+    },
+    "picture": "b64677f89c4368d6b0b2a3d798823937.png",
+    "alias": "AMA",
+    "name": "Amazonas",
+    "email": "amazonas@shortae.com",
+    "username": "amazonas",
+    "color": "#FF5733",
+    "color2": "#C70039",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925720000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728927590000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d50186e4526561d33ac23"
+    },
+    "picture": "8816ed82360d3af6eec52b7c15f2ea04.png",
+    "alias": "ARA",
+    "name": "Aragua",
+    "email": "aragua@shortae.com",
+    "username": "aragua",
+    "color": "#FFBD33",
+    "color2": "#FF5733",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925720000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928534000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d50187c48a57d68319072"
+    },
+    "picture": "88bf50a8a2a815cd52896ae74b382a92.png",
+    "alias": "APU",
+    "name": "Apure",
+    "email": "apure@shortae.com",
+    "username": "apure",
+    "color": "#900C3F",
+    "color2": "#581845",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925720000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1729991820000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "670d501886dc70667b1779b2"
+    },
+    "picture": "ec7eb5777af705e81123a5db82b35469.png",
+    "alias": "ANZ",
+    "name": "Anzoátegui",
+    "email": "anzoategui@shortae.com",
+    "username": "anzoategui",
+    "color": "#FFC300",
+    "color2": "#DAF7A6",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para",
+      "infa"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925720000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1731445483000"
+      }
+    },
+    "description": "<p style=\"margin: 0cm; text-align: justify; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;\"><strong><span style=\"font-family: Arial, sans-serif; text-transform: uppercase;\">Capital</span></strong><span style=\"font-family: Arial, sans-serif; text-transform: uppercase;\">: Barcelona </span></p>\r\n<p style=\"margin: 0cm; text-align: justify; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;\">&nbsp;</p>\r\n<ul>\r\n<li style=\"text-align: justify; line-height: normal; font-size: 11pt; font-family: Calibri, sans-serif;\"><span style=\"font-family: Arial, sans-serif; text-transform: uppercase;\">Con una mezcla de playas, monta&ntilde;as y llanos EN EL EJE METROPOLITANO, QUE ADEM&Aacute;S CUENTA CON LAS CIUDADES PUERTO LA CRUZ Y LECHER&Iacute;A. Anzo&aacute;tegui es conocido por sus bellas costas en el Mar Caribe y sus industrias petroleras AL SUR DEL ESTADO, CON LAS MAYORES RESERVAS DE CRUDO DEL PA&Iacute;S. LA ENTIFDAD ofrece playas tur&iacute;sticas en Puerto La Cruz, Lecher&iacute;a Y GUANTA, mientras que en el interior destaca la producci&oacute;n agr&iacute;cola y ganadera. La capital, Barcelona, conserva una rica herencia colonial y arquitectura hist&oacute;rica.</span></li>\r\n</ul>"
+  },
+  {
+    "_id": {
+      "$oid": "670d5019e54b541df64c1cf2"
+    },
+    "picture": "fd795cce527b3b0335c13dd8893461de.png",
+    "alias": "BAR",
+    "name": "Barinas",
+    "email": "barinas@shortae.com",
+    "username": "barinas",
+    "color": "#4CAF50",
+    "color2": "#8BC34A",
+    "rol_id": {
+      "$oid": "65866d56b4a50f76386164dd"
+    },
+    "rol_alias": "admin_delegaciones",
+    "events": [
+      "nac",
+      "para"
+    ],
+    "active": true,
+    "user_id": {
+      "$oid": "000000000000000000000000"
+    },
+    "create_at": {
+      "$date": {
+        "$numberLong": "1728925720000"
+      }
+    },
+    "edit_at": {
+      "$date": {
+        "$numberLong": "1728928556000"
+      }
+    }
+  }
+]

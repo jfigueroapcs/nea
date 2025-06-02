@@ -1,0 +1,72 @@
+---
+import { ContentSchemaContainsSlugError } from 'node_modules/astro/dist/core/errors/errors-data';
+import {
+	getSecret
+} from "astro:env/server"
+
+export interface Props {
+    tables: any;
+    delegations: any;
+}
+const apiUrl = getSecret('SmartPort-ImgURL')
+const { tables, delegations } = Astro.props;
+const tableKeys = Object.keys(tables)
+
+
+---
+{
+    // @ts-ignore
+    tableKeys.map(key => {
+    const { head, data } = tables[key]
+    return(
+        <>
+            <div class="panel-box" style="margin: 40px 0 10px 0">
+                <div class="titles no-margin">
+                    <h4 style="text-transform: capitalize">{key}</h4>
+                </div>
+            </div>
+            <table class="table-striped table-responsive table-hover result-point">
+                <thead class="point-table-head">
+                <tr>
+                    {
+                    head.map((h:any, hidx:number) => <th class={`${hidx <= 1 ? 'text-left' : 'text-center'}`}>{h}</th>)
+                    }
+                </tr>
+                </thead>
+
+                <tbody class="text-center">
+                    {
+                        data.map((d:any, didx:number) => {
+                            // console.log(d[head[0]])
+                            const dataKeys = Object.keys(d)
+                            // console.log(dataKeys)
+                            const del = delegations.find((delegation:any) => delegation.name === d[dataKeys[1]] )
+                            return(
+                                <tr>
+
+                                    <tr>
+                                        <td class="text-left number">
+                                            {d[dataKeys[0]]}
+                                        </td>
+                                        <td class="text-left">
+                                            <img src={`${apiUrl}img/users/${del?.picture}`} alt="Poland" />
+                                            <span>{d[dataKeys[1]]}</span>
+                                        </td>
+                                        <td>{d[dataKeys[2]]}</td>
+                                        <td>{d[dataKeys[3]]}</td>
+                                        <td>{d[dataKeys[4]]}</td>
+                                        <td>{d[dataKeys[5]]}</td>
+                                    </tr>
+                                </tr>
+                            )
+                        })
+                    }
+
+                </tbody>
+            </table>
+
+        </>
+    )
+    })
+}
+
